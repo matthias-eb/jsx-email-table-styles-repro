@@ -5,9 +5,9 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "lib": ["dom", "dom.iterable", "ES2023"],
+    "lib": ["ES2023"],
     "module": "ESNext",
-    "moduleResolution": "node10",
+    "moduleResolution": "bundler",
     "noEmitOnError": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -17,7 +17,7 @@
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "target": "es2023"
+    "target": "ESNext"
   },
   "exclude": ["**/dist", "**/node_modules"],
   "include": ["templates"]
